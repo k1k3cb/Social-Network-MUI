@@ -6,10 +6,12 @@ import {
 	Badge,
 	Box,
 	InputBase,
+	Menu,
+	MenuItem,
 	Toolbar,
 	Typography
 } from '@mui/material';
-import React from 'react';
+import { useState } from 'react';
 
 const StyledToolbar = styled(Toolbar)({
 	display: 'flex',
@@ -36,12 +38,13 @@ const UserBox = styled(Box)(({ theme }) => ({
 	display: 'flex',
 	alignItems: 'center',
 	gap: '10px',
-  [theme.breakpoints.up('sm')]: {
+	[theme.breakpoints.up('sm')]: {
 		display: 'none'
 	}
 }));
 
 const Navbar = () => {
+	const [open, setOpen] = useState(false);
 	return (
 		<AppBar position='sticky'>
 			<StyledToolbar>
@@ -83,10 +86,11 @@ const Navbar = () => {
 							}}
 							alt='Remy Sharp'
 							src='https://images.pexels.com/photos/846741/pexels-photo-846741.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
+							onClick={e => setOpen(true)}
 						/>
 					</Badge>
 				</Icons>
-				<UserBox>
+				<UserBox onClick={e => setOpen(true)}>
 					<Avatar
 						sx={{
 							width: 30,
@@ -98,6 +102,24 @@ const Navbar = () => {
 					<Typography variant='span'>John DOe</Typography>
 				</UserBox>
 			</StyledToolbar>
+			<Menu
+				id='demo-positioned-menu'
+				aria-labelledby='demo-positioned-button'
+				open={open}
+				onClose={e => setOpen(false)}
+				anchorOrigin={{
+					vertical: 'top',
+					horizontal: 'right'
+				}}
+				transformOrigin={{
+					vertical: 'top',
+					horizontal: 'right'
+				}}
+			>
+				<MenuItem>Profile</MenuItem>
+				<MenuItem>My account</MenuItem>
+				<MenuItem>Logout</MenuItem>
+			</Menu>
 		</AppBar>
 	);
 };
