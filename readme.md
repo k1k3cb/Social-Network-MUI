@@ -1,34 +1,32 @@
 # Social Network MUI
 
-![Imagen del proyecto](https://github.com/k1k3cb/React-Admin-Dashboard-Sass/blob/main/public/screenShoots/image1.png)
+![Imagen del proyecto](https://github.com/k1k3cb/Social-Network-MUI/blob/main/public/screenShoots/img1.png)
 
 ## Ejemplo en vivo
  
 
-- [Enlace al proyecto](https://rock-paper-scissors-game-5u14.onrender.com)
+- [Enlace al proyecto](https://social-network-mui.onrender.com/)
 
 
 ## Descripción 📑
 
-Este proyecto consiste en el desarrollo del un **"panel de administración"** usando Sass para darle estilos.
+Desarrollo del una web estilo red social utilizando React y Material UI.
 
 
-Las funcuionalidades actuales son:
--  listar usuarios y productos 
-- consultar la ficha individual de cada uno
 
 ## ¿Qué he aprendido en este proyecto? 🙇🏻
 
-He aprendido a usar la librería [Recharts](https://recharts.org/en-US/)  y la creación de layouts con React.
+El uso de  [Material UI](https://mui.com/).
 
 ## Tecnologías 🛠
 
 <!-- Iconos sacados de: https://github.com/hendrasob/badges/blob/master/README.md y https://github.com/alexandresanlim/Badges4-README.md-Profile -->
 
 
-[![SASS](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)](https://sass-lang.com/)
+
 [![VITE](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E)](https://vitejs.dev/)
 [![REACT](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://postcss.org/)
+![MATERIAL UI](https://img.shields.io/badge/Material%20UI-007FFF?style=for-the-badge&logo=mui&logoColor=white)
 
 
 
@@ -38,11 +36,10 @@ He aprendido a usar la librería [Recharts](https://recharts.org/en-US/)  y la c
 
 Si quieres echar un vistazo al proyecto, te recomiendo:
 
-![Captura del proyecto](https://github.com/k1k3cb/React-Admin-Dashboard-Sass/blob/main/public/screenShoots/image2.png)
+![Captura del proyecto](https://github.com/k1k3cb/Social-Network-MUI/blob/main/public/screenShoots/img2.png)
 
-![Captura del proyecto](https://github.com/k1k3cb/React-Admin-Dashboard-Sass/blob/main/public/screenShoots/image3.png)
+![Captura del proyecto](https://github.com/k1k3cb/Social-Network-MUI/blob/main/public/screenShoots/img3.png)
 
-![Captura del proyecto](https://github.com/k1k3cb/React-Admin-Dashboard-Sass/blob/main/public/screenShoots/image4.png)
 
 
 
@@ -52,7 +49,7 @@ Si quieres echar un vistazo al proyecto, te recomiendo:
 
   [![GMAIL](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:enriquecbar@gmail.com)
 
-<!-- - [enriquecbar@gmail.com](enriquecbar@gmail.com) -->
+<!-- - [enriquecbardev@gmail.com](enriquecbardev@gmail.com) -->
 - [LinkedIn](https://www.linkedin.com/in/enrique-comesa%c3%b1a-312500268/)
 - [Porfolio web](https://portfolio-ep5h.onrender.com/)
 
