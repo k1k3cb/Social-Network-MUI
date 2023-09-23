@@ -4,7 +4,7 @@ import Rightbar from './components/Rightbar';
 import Sidebar from './components/Sidebar';
 import Navbar from './components/Navbar';
 import { useState } from 'react';
-import { Add } from '@mui/icons-material';
+import Add from './components/Add';
 
 const App = () => {
 	const [mode, setMode] = useState('light');
@@ -15,10 +15,10 @@ const App = () => {
 	});
 	return (
 		<ThemeProvider theme={darkTheme}>
-			<Box>
+			<Box bgcolor={'background.default'} color={'text.primary'}>
 				<Navbar />
 				<Stack direction='row' spacing={2} justifyContent='space-between'>
-					<Sidebar />
+					<Sidebar  setMode={setMode} mode={mode}/>
 					<Feed />
 					<Rightbar />
 				</Stack>

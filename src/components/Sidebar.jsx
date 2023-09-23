@@ -20,15 +20,9 @@ import {
 import { blue } from '@mui/material/colors';
 import React, { useState } from 'react';
 
-const Sidebar = () => {
-	const [mode, setMode] = useState(false);
+const Sidebar = ({ mode, setMode }) => {
 	return (
-		<Box
-			
-			flex={1}
-			p={2}
-			sx={{ display: { xs: 'none', sm: 'block' } }}
-		>
+		<Box flex={1} p={2} sx={{ display: { xs: 'none', sm: 'block' } }}>
 			<Box position='fixed'>
 				<List>
 					<ListItem disablePadding>

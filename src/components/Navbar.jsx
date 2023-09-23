@@ -58,7 +58,7 @@ const Navbar = () => {
 					}}
 				>
 					{' '}
-					LAMA DEV
+					SOCIAL MUI
 				</Typography>
 				<Pets
 					sx={{
