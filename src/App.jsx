@@ -4,10 +4,10 @@ import Rightbar from './components/Rightbar';
 import Sidebar from './components/Sidebar';
 import Navbar from './components/Navbar';
 import { useState } from 'react';
+import { Add } from '@mui/icons-material';
 
 const App = () => {
-
-	const [mode, setMode] = useState("light");
+	const [mode, setMode] = useState('light');
 	const darkTheme = createTheme({
 		palette: {
 			mode: mode
@@ -22,6 +22,7 @@ const App = () => {
 					<Feed />
 					<Rightbar />
 				</Stack>
+				<Add />
 			</Box>
 		</ThemeProvider>
 	);
